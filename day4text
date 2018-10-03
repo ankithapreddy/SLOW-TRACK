@@ -9,7 +9,7 @@ example:structure to represent the triangle.
         }
         
 what is an array in c?
-array is also a structured data type in which we can define many attributes of the same data types.
+array is also a linear data structures in which we can define many attributes of the same data types.
 Array can be used to represent not only simple list of data but also table of data in two or three dimensions.
 
 declaring an array:
@@ -26,4 +26,6 @@ to initialize an array we give the list of values the array should take for exam
 int marks[4]={ 67, 87, 56, 77 };    // integer array initialization
 
 float area[5]={ 23.4, 6.8, 5.5 };   // float array initialization
+
+. The first element in every array is the zeroth element. 
 
