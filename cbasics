@@ -1,0 +1,35 @@
+The paranthesis after the main indicates that main is a function in the program.
+The parentheses after main indicate that main is a program
+building block called a function. C programs contain one or more functions, one of which
+must be main. Every program in C begins executing at the function main. Functions can
+return information. The keyword int to the left of main indicates that main “returns” integer (whole number) value.
+The void in parentheses here
+means that main does not receive any information. 
+The backslash (\) is called an escape character. It indicates that printf is supposed to do something out of the ordinary.
+ return 0 is included at the end of every main function. The keyword return is one of several means
+we’ll use to exit a function. When the return statement is used at the end of main as shown
+here, the value 0 indicates that the program has terminated successfully.
+A variable is a location in memory where a value can be stored for use by a program.
+A syntax error is caused when the compiler cannot recognize a statement. The compiler normally issues an error message to help
+you locate and fix the incorrect statement. Syntax errors are violations of the language.
+Syntax errors are also called compile errors, or compile-time errors.
+This scanf has two arguments, "%d" and &integer1.
+The first argument, the format control string, indicates the type of data that should be
+input by the user. The %d conversion specifier indicates that the data should be an integer
+Separate the definitions and executable statements in a function with one blank line to
+emphasize where the definitions end and the executable statements begin.
+(the letter d stands for “decimal integer”). The % in this context is treated by scanf (and
+printf as we’ll see) as a special character that begins a conversion specifier. The second
+argument of scanf begins with an ampersand (&)—called the address operator in C—
+followed by the variable name. The ampersand, when combined with the variable name,
+tells scanf the location (or address) in memory at which the variable integer1 is stored.
+The arithmetic operators are all binary operators. For example, the expression 3 + 7
+contains the binary operator + and the operands 3 and 7.
+Integer division yields an integer result. For example, the expression 7 / 4 evaluates
+to 1 and the expression 17 / 5 evaluates to 3. C provides the remainder operator, %, which
+yields the remainder after integer division. The remainder operator is an integer operator
+that can be used only with integer operands. The expression x % y yields the remainder
+after x is divided by y. Thus, 7 % 4 yields 3 and 17 % 5 yields 2. We’ll discuss many inter-
+esting applications of the remainder operator.
+As in algebra, it is acceptable to place unnecessary parentheses in an expression to
+make the expression clearer. These are called redundant parentheses.
