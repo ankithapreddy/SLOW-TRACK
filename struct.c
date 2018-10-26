@@ -1,26 +1,39 @@
+
 #include<stdio.h>
 struct fraction
 {
   int num;
   int den;
 };
-
-struct fraction input()
+struct fractions
 {
-struct fraction f;
-printf("Enter the values of numerator and denominator:\n");
-scanf("%d%d",&f.num,&f.den);
+        int n;
+        int arr[10];
+};
+
+struct fractions input()
+{
+int i;
+struct fractions f;
+printf("Enter the number of fractions:\n");
+scanf("%d",&f.n);
+for(i=0;i<f.n;i++)
+{
+  struct fraction s;
+  printf("Enter the numerator[%d]: ",i+1);
+  scanf("%d",&f.arr[10]);
+  printf("Enter the denominator[%d]:",i+1);
+  scanf("%d",&f.arr[10]);
+}
 return f;
 }
-void output(struct fraction f)
+void output(struct fractions f)
 {
- printf("The fraction is:%d/%d",f.num,f.den);
+ printf("The fraction is:%d",f.arr[10]);
 }
 int main()
 {
-struct fraction f;
+struct fractions f;
 f=input();
 output(f);
 }
-
-
