@@ -1,0 +1,5 @@
+What are formal and actual parameter?
+There are two parameters in c formal and actual.
+Actual parameters are parameters as they appear in function calls.
+Formal parameters are parameters as they appear in function declarations. 
+Actual parameters are also called arguments.
