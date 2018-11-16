@@ -15,7 +15,7 @@ struct points  input()
 
 struct points compute_area(struct points k)
 {
-        k.area=k.ax*(k.by-k.cy)+k.bx*(k.cy-k.ay)+k.cx*(k.ay-k.by)/2;
+        k.area=(k.ax*(k.by-k.cy)+k.bx*(k.cy-k.ay)+k.cx*(k.ay-k.by))/2;
         return k;
         }
 
